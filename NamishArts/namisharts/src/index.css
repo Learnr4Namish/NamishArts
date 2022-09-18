@@ -1,0 +1,37 @@
+@font-face {
+  font-family: psr;
+  src: url("https://nkpl.namishkumar.in/psr.ttf");
+}
+html {
+  height: 100%;
+  margin: auto;
+  display: table;
+}
+body {
+  margin: auto;
+  /*font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;*/
+    font-family: psr;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: auto;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  background-color: #434343;
+  font-size: 20px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.design {
+   
+}
+#root {
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+}
